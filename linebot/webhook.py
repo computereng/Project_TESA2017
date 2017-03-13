@@ -155,7 +155,7 @@ class WebhookHandler(object):
 
         :param str channel_secret: Channel secret (as text)
         """
-        self.parser = WebhookParser(channel_secret)
+        self.parser = WebhookParser(5ca817286d1c05e30f6aae7fb9361486)
         self._handlers = {}
         self._default = None
 
